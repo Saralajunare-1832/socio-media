@@ -9,5 +9,6 @@ public class SocioMediaUserApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SocioMediaUserApplication.class, args);
 	}
+//This just to check how to add branch on upstreem
 
 }
