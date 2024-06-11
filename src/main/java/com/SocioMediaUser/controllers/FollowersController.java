@@ -40,8 +40,12 @@ public class FollowersController {
     }
 
 //    This should be GetMapping, it is only returning boolean value
+//    @PostMapping("/isFollower")
+//    public boolean isfollower(@RequestBody FollowersRequest followersRequest){
+//        return service.isFollower(followersRequest.getFollowingUsername(),followersRequest.getFollowedUsername());
+//    }
     @PostMapping("/isFollower")
-    public boolean isfollower(@RequestBody FollowersRequest followersRequest){
+    public boolean isfollower1(@RequestBody FollowersRequest followersRequest){
         return service.isFollower(followersRequest.getFollowingUsername(),followersRequest.getFollowedUsername());
     }
 }
